@@ -14,6 +14,7 @@ export default {
   name: 'hello',
   created(){
       console.log('created');
+      
 
       // 这样就可以获取到全局变量
       let m = this.$store.state.msg;
